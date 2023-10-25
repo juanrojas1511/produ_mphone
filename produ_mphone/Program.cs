@@ -42,21 +42,7 @@ namespace produ_mphone
 
                 }
             } while (opcion!=6);
-            Console.WriteLine("================================");
-            Console.WriteLine("Reporte Final");
-            Console.WriteLine("================================");
-            Console.WriteLine("Productos Vendidos    | Cantidad");
-            Console.WriteLine("--------------------------------");
-            Console.WriteLine($"mPhones               |{mPhone3000}");
-            Console.WriteLine($"mPads                 |{mPad3500}");
-            Console.WriteLine($"MAPBrooks             |{MAPBrook3800}");
-            Console.WriteLine($"mWatches              |{mWatch8000}");
-            Console.WriteLine("--------------------------------");
-            Console.WriteLine("Total                 |");
-            Console.WriteLine("================================");
-            Console.WriteLine("¡Hasta luego!");
-            Console.WriteLine("Diseñado por:");
-            string nom=Console.ReadLine();
+
           
         }
         public static int Productos_mphone()
